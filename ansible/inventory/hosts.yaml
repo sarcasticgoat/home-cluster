@@ -1,0 +1,8 @@
+---
+kubernetes:
+  children:
+    master:
+      hosts:
+        k8s-5:
+          ansible_user: quin
+          ansible_host: 192.168.101.15
